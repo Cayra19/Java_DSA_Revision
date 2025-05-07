@@ -1,13 +1,16 @@
 public class nPr {
+    public static int permutation(int n) {
+        int mul = 1;
+        for (int i = 1; i <= n; i++) {
+            mul *= i;
+        }
+        return mul;
+    }
+
     public static void main(String[] args) {
-        int n=5,r=2,nFact=1;
-        for(int i=1;i<=n;i++){
-            nFact*=i;
-        }
-        int rFact=1;
-        for(int i=1;i<=(n-r);i++){
-            rFact*=i;
-        }
-        System.out.println("nPr = "+nFact/rFact);
+        int n = 6, r = 2;
+        int nFact = permutation(n);
+        int rFact = permutation(n - r);
+        System.out.println(n + "P" + r + "= " + nFact / rFact);
     }
 }
