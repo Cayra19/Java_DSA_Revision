@@ -3,11 +3,9 @@ import java.util.Scanner;
 public class DecimalToAnyBase {
     public static int convertDec(int num, int base) {
         int pow = 0, fNum = 0;
-        int quo = 0;
         while (num >= 1) {
             int rem = num % base;
-            quo = num / base;
-            num = quo;
+            num = num / base;
             fNum = fNum + (rem * (int) Math.pow(10, pow));
             pow++;
         }
