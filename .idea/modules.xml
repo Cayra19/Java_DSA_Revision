@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicsPrograms/BasicsPrograms.iml" filepath="$PROJECT_DIR$/BasicsPrograms/BasicsPrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_DSA_Revision.iml" filepath="$PROJECT_DIR$/.idea/Java_DSA_Revision.iml" />
       <module fileurl="file://$PROJECT_DIR$/Number_System/Number_System.iml" filepath="$PROJECT_DIR$/Number_System/Number_System.iml" />
